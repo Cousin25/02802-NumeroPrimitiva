@@ -48,14 +48,11 @@ public class Main {
             final int min_loteria = 1;
 
             int loteria = RND.nextInt(max_loteria - min_loteria + 1) + min_loteria;
-            
+
             System.out.println("ERROR: Entrada incorrecta");
         } finally {
             //borrar buffer
             SCN.nextLine();
-
         }
-
     }
-
 }
